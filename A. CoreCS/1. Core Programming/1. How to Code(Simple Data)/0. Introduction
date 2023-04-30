@@ -1,0 +1,10 @@
+There are two difficulties in writing programs.  
+
+Firstly ,we might be given incomplete task description. The design method can help us to learn about what we want our program to do.  
+Secondly, usually the program is too big for us to solve in one go. We can only focus on small part of the program at once. So we have to deal that complexity.
+
+Our goal is to write programs that end up being formed of nice pieces that fit together well, are well tested, and easy to modify.
+
+Techniques in this course can be used with any other programming language.
+
+**BSL: Beginning Student Languages**
