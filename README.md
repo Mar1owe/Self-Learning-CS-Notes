@@ -11,3 +11,5 @@
 ## Core CS
 ### Core Programming
 #### How to Code: Simple Data
+1. BSL - Beginning Student Language
+2. 
