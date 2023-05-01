@@ -1,2 +1,8 @@
-2023-5-01
-not finished yet
+HtDF recipe systematizes the design of a function. It makes a hard problem easier.
+
+The HtDF recipe consists of the following steps:  
+1. Signature, purpose and stub.
+2. Define examples, wrap each in check-except
+3. Template and inventory.
+4. Code the function body.
+5. Test and debug until correct
