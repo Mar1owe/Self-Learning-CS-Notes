@@ -2,3 +2,27 @@
 1. From edX How to Code: Simple data
     Language HtC1x edX.pdf
 2. From [DrRacket Documentation](https://docs.racket-lang.org/htdp-langs/beginner.html)
+
+# Functions
+| Functions are the most important part in a programming language  
+
+To evaluate primitive call
+- first  reduce operands to values(called the arguments) 
+- then apply primitive to the values
+For function definitions
+- simply record definition
+
+To evaluate function call
+- first reduce operands to values (called the arguments)
+- replace function call by
+     - body of function in which every occurence of parameter(s) are replaced by corresponding argument
+
+# Booleans and if Expressions
+To evaluate an if expression
+- if the question expression is not a value, evaluate it, and replace with value
+- if the question is **true**, replace entire if expression with **true** answer expression
+- if the question is **false**, replace entire if expression with **false** answer expression
+- the question is a value other than true or false, so produce an **error**
+
+# Primitives
+Just guess and search the documentation, usually you'll find the right answer.
