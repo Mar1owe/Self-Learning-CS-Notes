@@ -4,7 +4,7 @@
 2. From [DrRacket Documentation](https://docs.racket-lang.org/htdp-langs/beginner.html)
 
 # Functions
-| Functions are the most important part in a programming language  
+> Functions are the most important part in a programming language  
 
 To evaluate primitive call
 - first  reduce operands to values(called the arguments) 

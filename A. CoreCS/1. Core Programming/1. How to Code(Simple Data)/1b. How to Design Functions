@@ -1,8 +1,32 @@
+**Definition**  
 HtDF recipe systematizes the design of a function. It makes a hard problem easier.
 
 The HtDF recipe consists of the following steps:  
 1. Signature, purpose and stub.
-2. Define examples, wrap each in check-except
+2. Examples (wrapped in check-except)
 3. Template and inventory.
 4. Code the function body.
-5. Test and debug until correct
+5. Test and debug  
+
+**A First HtDF Problem**  
+> Describe a function that pluralizes a given word. (Pluralize means to convert the word to its plural form.) For simplicity you may assume that just adding s is enough to pluralize the word.
+
+```
+; String -> String    ; Signature
+; Produce the plural form of a given word        ; Purpose
+(check-expect (pluralize "apple") "apples")
+(check-expect (pluralize "chair") "chairs")
+; (define (pluralize n) 0)    ; Stub
+; (define (pluralize n)       ; Template
+;      (... n))
+(define (pluralize n)
+    (string-append n "s"))
+```
+- For now, primitives in signatures are: `Number`, `Integer`, `Natural`, `String`, `Image`, `Boolean`.
+- A purpose should tell us more about the signature, thus it should be more specific and detailed.
+- While writing signatures, try to use the most specific language, if you can use `Natural`, don't just use `Number`. This will make it easier to construct the program and for later debugging.
+- The HtDF recipe is not a waterfall process like you do the first step and then the second and then the third. Sometimes you have to go over previous step when you realize that something goes wrong and you have to fix it.  
+
+**How Many Tests Do We Need**
+> Design a function that consumes an image and determines whether the image is tall.
+
