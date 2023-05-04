@@ -18,3 +18,5 @@ All *couse notes* can be downloaded and preview as markdown files.
 #### How to Code: Simple Data
 1. BSL - Beginning Student Language
 2. HtDF - How to design functions
+3. HtDD - How to Design Data Definitions
+4. Data Driven Templates
