@@ -1,13 +1,12 @@
-# OSSU-CS
-> Self-learning Computer Science from ??? to ???.
-
-**Notice**  
-All *couse notes* can be downloaded and preview as markdown files.
-- Other Websites
-1. [OSSU](https://github.com/ossu/computer-science)
-2. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
-3. [Official Markdown](https://www.markdownguide.org/)
-4. [Learn X in Y minutes](https://learnxinyminutes.com/)
+> Self learning CS from ??? to ???.
+# Teach Yourself Computer Science
+[Oz Nova's Homepage](https://ozwrites.com/)  
+[TeachYourselfCS](https://teachyourselfcs.com/)
+## Proramming
+**Structure and Interpretation of Computer Programs**
+## Computer Architecture
+**Computer Systems: A Programmer's Perspective**
+# OSSU
 ## Intro CS
 **Python** 
 1. [Python Documentation](https://docs.python.org/3/)  
@@ -20,3 +19,10 @@ All *couse notes* can be downloaded and preview as markdown files.
 2. HtDF - How to design functions
 3. HtDD - How to Design Data Definitions
 4. Data Driven Templates
+---
+# Other Websites
+1. [OSSU](https://github.com/ossu/computer-science)
+2. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
+3. [Official Markdown](https://www.markdownguide.org/)
+4. [Learn X in Y minutes](https://learnxinyminutes.com/)
+5. [exercism](exercism.io)
