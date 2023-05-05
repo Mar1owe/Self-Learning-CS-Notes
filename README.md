@@ -7,6 +7,7 @@
 ## Computer Architecture
 **Computer Systems: A Programmer's Perspective**
 # OSSU
+[Website](https://github.com/ossu/computer-science)
 ## Intro CS
 **Python** 
 1. [Python Documentation](https://docs.python.org/3/)  
@@ -21,8 +22,7 @@
 4. Data Driven Templates
 ---
 # Other Websites
-1. [OSSU](https://github.com/ossu/computer-science)
-2. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
-3. [Official Markdown](https://www.markdownguide.org/)
-4. [Learn X in Y minutes](https://learnxinyminutes.com/)
-5. [exercism](exercism.io)
+1. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
+2. [Official Markdown](https://www.markdownguide.org/)
+3. [Learn X in Y minutes](https://learnxinyminutes.com/)
+4. [exercism](exercism.io)
