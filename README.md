@@ -1,4 +1,4 @@
-> Self learning CS from noob to ???.  
+> Self-learning CS from noob to ???.  
 # Teach Yourself Computer Science
 [Oz Nova's Homepage](https://ozwrites.com/)  
 [TeachYourselfCS](https://teachyourselfcs.com/)
