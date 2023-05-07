@@ -3,16 +3,16 @@
 [Oz Nova's Homepage](https://ozwrites.com/)  
 [TeachYourselfCS](https://teachyourselfcs.com/)
 ## Proramming
-[SICP](https://sarabander.github.io/sicp/html/index.xhtml)
-At least go through the first 3 chapters and do the exercises.
+[SICP](https://sarabander.github.io/sicp/html/index.xhtml)  
+At least go through the first 3 chapters and do the exercises.  
 [Additional Practice](exercism.io)
 ## Computer Architecture
-**Computer Systems: A Programmer's Perspective**
+**Computer Systems: A Programmer's Perspective**  
 At least go through the first 6 chapters
 ## Algorithms and Data Structures
-1. The Algorithm Design Manual by Steven Skiena
-[Skiena's Video Lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
-[Additional Practice](https://leetcode.com/)
+1. The Algorithm Design Manual by Steven Skiena  
+[Skiena's Video Lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)  
+[Additional Practice](https://leetcode.com/)  
 Solve aroung 100 random leetcode problems
 2. How to Solve it: A New Aspect of Mathematical Method
 ## Mathematics for Computer Science
