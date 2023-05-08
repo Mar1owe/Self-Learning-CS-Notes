@@ -4,11 +4,12 @@
 [TeachYourselfCS](https://teachyourselfcs.com/)
 ## Proramming
 [SICP](https://sarabander.github.io/sicp/html/index.xhtml)  
-At least go through the first 3 chapters and do the exercises.  
-[Additional Practice](exercism.io)
+[] First 3 chapters and the exercises.  
+[] [Additional Practice](exercism.io)  
+[] Finish the whole book. 
 ## Computer Architecture
 **Computer Systems: A Programmer's Perspective**  
-At least go through the first 6 chapters
+[] First 6 chapters
 ## Algorithms and Data Structures
 1. The Algorithm Design Manual by Steven Skiena  
 [Skiena's Video Lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)  
