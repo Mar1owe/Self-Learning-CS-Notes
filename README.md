@@ -5,7 +5,7 @@
 ## Proramming
 [SICP](https://sarabander.github.io/sicp/html/index.xhtml)  
 [] First 3 chapters and the exercises.  
-[] [Additional Practice](exercism.io)  
+[] [Additional Practice](exercism.io)
 [] Finish the whole book. 
 ## Computer Architecture
 **Computer Systems: A Programmer's Perspective**  
