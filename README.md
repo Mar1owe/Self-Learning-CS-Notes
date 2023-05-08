@@ -1,7 +1,6 @@
-> Self-learning CS from noob to ???.  
-# Teach Yourself Computer Science
-[Oz Nova's Homepage](https://ozwrites.com/)  
-[TeachYourselfCS](https://teachyourselfcs.com/)
+> Self-learning CS from noob to {?}.  
+# [TeachYourselfComputerScience](https://teachyourselfcs.com/)
+[Oz Nova's Homepage](https://ozwrites.com/)
 ## Proramming
 **Structure and Interpretation of Computer Programs**  
 [Textbook](https://sarabander.github.io/sicp/html/index.xhtml)  
@@ -28,20 +27,13 @@
     3. Gilbert Strang - Introduction to Linear Algebra 5th Edition
 > If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is. --John von Neuman
 ## Operating Systems
-# OSSU
-[Website](https://github.com/ossu/computer-science)
+
+---
+# [OSSU](https://github.com/ossu/computer-science)
 ## Intro CS
 **Python** 
 1. [Python Documentation](https://docs.python.org/3/)  
 2. [Visualize code in Python](https://pythontutor.com/visualize.html)
-3. [PY4E Python for Everyone](https://www.py4e.com/)
-## Core CS
-### Core Programming
-#### How to Code: Simple Data
-1. BSL - Beginning Student Language
-2. HtDF - How to design functions
-3. HtDD - How to Design Data Definitions
-4. Data Driven Templates
 ---
 # Other Websites
 1. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
