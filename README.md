@@ -4,20 +4,33 @@
 [TeachYourselfCS](https://teachyourselfcs.com/)
 ## Proramming
 [SICP](https://sarabander.github.io/sicp/html/index.xhtml)  
- []First 3 chapters and the exercises.  
- [][Additional Practice](exercism.io)
- []Finish the whole book. 
+- [] First 3 chapters and the exercises  
+- [] [Additional Practice](exercism.io)  
+- [] Finish the whole book  
+
 ## Computer Architecture
 **Computer Systems: A Programmer's Perspective**  
-[] First 6 chapters
-## Algorithms and Data Structures
-1. The Algorithm Design Manual by Steven Skiena  
-[Skiena's Video Lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)  
-[Additional Practice](https://leetcode.com/)  
-Solve aroung 100 random leetcode problems
-2. How to Solve it: A New Aspect of Mathematical Method
-## Mathematics for Computer Science
+- [] CS61C Course  
+- [] Finish specific readings  
+> Hardware is the platform --Mike Acton, Engin Director at Insomniac Games
 
+## Algorithms and Data Structures
+***The Algorithm Design Manual*** by Steven Skiena  
+- [] [Skiena's Video Lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)  
+- [] Additional Practice: solve around 100 random problems at [Leetcode](https://leetcode.com/)  
+- [] How to Solve it: A New Aspect of Mathematical Method.
+
+> I have only one method that I recommend extensively-it's called think before you write. --Richard Hamming
+## Mathematics for Computer Science
+- [] [MIT 6.042J Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
+- [] Linear Algebra (YouTube Essence of Linear Algebra)
+	- [] Youtube Video List: Essence of Linear Algebra
+	- [] Gilbert Strang - Introduction to Linear Algebra 5th Edition
+	- [] [Video Lectures](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) 
+
+> If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is. --John von Neuman
+
+## Operating Systems
 # OSSU
 [Website](https://github.com/ossu/computer-science)
 ## Intro CS
