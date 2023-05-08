@@ -39,4 +39,3 @@
 1. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
 2. [Official Markdown](https://www.markdownguide.org/)
 3. [Learn X in Y minutes](https://learnxinyminutes.com/)
-4. [exercism](exercism.io)
