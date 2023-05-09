@@ -9,7 +9,7 @@ Additional Practice: (exercism.io)
 2. Finish 39 additional exercises
 3. Finish the whole book  
 ## Computer Architecture
-**The Elements of Computing Systems** also known as "Nand2Tetris"
+**The Elements of Computing Systems** also known as "Nand2Tetris"  
 **Computer Systems: A Programmer's Perspective** by Randal E. Bryant & David Richard O'Hallaron  
 1. Finish the first six chapter and associated projects on [Nand2Tetris](https://www.nand2tetris.org)  
 2. Finish CS:APP
@@ -23,7 +23,7 @@ Additional Practice: (exercism.io)
 ## Mathematics for Computer Science
 1. [Lecture notes](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) by László Lovász 
 2. [MIT 6.042J Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
-3. Linear Algebra (YouTube Essence of Linear Algebra)
+3. Linear Algebra
 	1. Youtube Video List: Essence of Linear Algebra
 	2. [Video Lectures](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)
  3. Gilbert Strang - Introduction to Linear Algebra 5th Edition
