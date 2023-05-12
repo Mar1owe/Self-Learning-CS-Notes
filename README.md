@@ -4,12 +4,17 @@
 ## Proramming
 **Structure and Interpretation of Computer Programs**  
 [Textbook](https://sarabander.github.io/sicp/html/index.xhtml)  
-Additional Practice: (exercism.io)  
+[Exercise Solutions](http://community.schemewiki.org/?SICP-Solutions)  
+Additional Practice: [Exercism](https://exercism.org/)
 1. First 3 chapters and the exercises  
 2. Finish 39 additional exercises
 3. Finish the whole book  
+
+Other resources:  
+1. [MIT Lecture Videos](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/)
+2. [UCB Lecture Videos](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)
 ## Computer Architecture
-**The Elements of Computing Systems** also known as "Nand2Tetris"  
+**The Elements of Computing Systems** (also known as "Nand2Tetris")  
 **Computer Systems: A Programmer's Perspective** by Randal E. Bryant & David Richard O'Hallaron  
 1. Finish the first six chapter and associated projects on [Nand2Tetris](https://www.nand2tetris.org)  
 2. Finish CS:APP
