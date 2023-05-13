@@ -2,8 +2,7 @@
 # [TeachYourselfComputerScience](https://teachyourselfcs.com/)
 [Oz Nova's Homepage](https://ozwrites.com/)
 ## Proramming
-**Structure and Interpretation of Computer Programs**  
-[Textbook](https://sarabander.github.io/sicp/html/index.xhtml)  
+[**Structure and Interpretation of Computer Programs**](https://sarabander.github.io/sicp/html/index.xhtml)  
 [Exercise Solutions](http://community.schemewiki.org/?SICP-Solutions)  
 Additional Practice: [Exercism](https://exercism.org/)
 1. First 3 chapters and the exercises  
@@ -34,7 +33,26 @@ Other resources:
  3. Gilbert Strang - Introduction to Linear Algebra 5th Edition
 > If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is. --John von Neuman
 ## Operating Systems
-
+[**Operating Systems: Three Easy Pieces**](https://pages.cs.wisc.edu/~remzi/OSTEP/)  
+Lion's Commentary on Unix  
+The Design and Implemntation of the FreeBSD Operating System  
+Max OS X Internals
+Linux Kernel Development
+Extra: A great way to consolidate your understanding of operating systems is to read the code of a small kernel and add features. One choice is xv6, a port of Unix V6 to ANSI C and x86, maintained for a course at MIT. OSTEP has an appendix of potential xv6 labs full of great ideas for potential projects.  
+## Computer Networking
+**Computer Networking: A Top-Down Approach**  
+[Wireshark Labs](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
+> You can’t gaze in the crystal ball and see the future. What the Internet is going to be in the future is what society makes it. --Bob Kahn
+## Databases
+YouTube: CS186Berkeley  
+[Readings in Database Systems, 5th Edition](http://www.redbook.io/)  
+About Data Modeling: **Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World, 3rd Edition Third Edition**  
+## Languages and Compilers
+[**Crafting Interpreters** by Bob Nystrom](https://craftinginterpreters.com/contents.html)  
+> Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines? --Ras Bodik at the start of his compilers course  
+## Distributed Systems
+YouTube: MIT's 6.824, a graduate course taught by Robert Morris  
+[Essential Readings](http://dsrg.pdos.csail.mit.edu/papers/)  
 ---
 # [OSSU](https://github.com/ossu/computer-science)
 ## Intro CS
