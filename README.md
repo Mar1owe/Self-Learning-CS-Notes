@@ -52,7 +52,8 @@ About Data Modeling: **Data and Reality: A Timeless Perspective on Perceiving an
 > Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines? --Ras Bodik at the start of his compilers course  
 ## Distributed Systems
 YouTube: MIT's 6.824, a graduate course taught by Robert Morris  
-[Essential Readings](http://dsrg.pdos.csail.mit.edu/papers/)  
+[Essential Readings](http://dsrg.pdos.csail.mit.edu/papers/)
+
 ---
 # [OSSU](https://github.com/ossu/computer-science)
 ## Intro CS
