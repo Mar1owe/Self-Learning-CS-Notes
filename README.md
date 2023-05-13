@@ -38,7 +38,7 @@ Lion's Commentary on Unix
 The Design and Implemntation of the FreeBSD Operating System  
 Max OS X Internals  
 Linux Kernel Development  
-Extra: A great way to consolidate your understanding of operating systems is to read the code of a small kernel and add features. One choice is xv6, a port of Unix V6 to ANSI C and x86, maintained for a course at MIT. OSTEP has an appendix of potential xv6 labs full of great ideas for potential projects.  
+Extra: A great way to consolidate your understanding of operating systems is to read the code of a small kernel and add features. One choice is [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), a port of Unix V6 to ANSI C and x86, maintained for a course at MIT. OSTEP has an appendix of potential [xv6 labs](https://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) full of great ideas for potential projects.  
 ## Computer Networking
 **Computer Networking: A Top-Down Approach**  
 [Wireshark Labs](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
