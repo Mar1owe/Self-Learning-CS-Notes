@@ -36,8 +36,8 @@ Other resources:
 [**Operating Systems: Three Easy Pieces**](https://pages.cs.wisc.edu/~remzi/OSTEP/)  
 Lion's Commentary on Unix  
 The Design and Implemntation of the FreeBSD Operating System  
-Max OS X Internals
-Linux Kernel Development
+Max OS X Internals  
+Linux Kernel Development  
 Extra: A great way to consolidate your understanding of operating systems is to read the code of a small kernel and add features. One choice is xv6, a port of Unix V6 to ANSI C and x86, maintained for a course at MIT. OSTEP has an appendix of potential xv6 labs full of great ideas for potential projects.  
 ## Computer Networking
 **Computer Networking: A Top-Down Approach**  
