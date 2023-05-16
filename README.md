@@ -64,6 +64,10 @@ About Data Modeling: **Data and Reality: A Timeless Perspective on Perceiving an
 2. [Visualize code in Python](https://pythontutor.com/visualize.html)
 ---
 # Other Websites
-1. [Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
-2. [Official Markdown](https://www.markdownguide.org/)
-3. [Learn X in Y minutes](https://learnxinyminutes.com/)
+[Github Markdown](https://docs.github.com/en/get-started/writing-on-github)
+
+[Official Markdown](https://www.markdownguide.org/)
+
+[Learn X in Y minutes](https://learnxinyminutes.com/)
+
+[KaTex Documentation](https://katex.org/docs/supported.html)
