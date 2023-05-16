@@ -28,9 +28,10 @@ Other resources:
 1. [Lecture notes](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) by László Lovász 
 2. [MIT 6.042J Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
 3. Linear Algebra
-	1. Youtube Video List: Essence of Linear Algebra
-	2. [Video Lectures](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)
- 3. Gilbert Strang - Introduction to Linear Algebra 5th Edition
+	1. [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+	2. [MIT Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)  
+
+ 		Textbook: Gilbert Strang - Introduction to Linear Algebra 5th Edition
 > If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is. --John von Neuman
 ## Operating Systems
 [**Operating Systems: Three Easy Pieces**](https://pages.cs.wisc.edu/~remzi/OSTEP/)  
@@ -44,15 +45,16 @@ Extra: A great way to consolidate your understanding of operating systems is to 
 [Wireshark Labs](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
 > You can’t gaze in the crystal ball and see the future. What the Internet is going to be in the future is what society makes it. --Bob Kahn
 ## Databases
-YouTube: CS186Berkeley  
+[CS186Berkeley](https://www.youtube.com/user/CS186Berkeley/videos)  
 [Readings in Database Systems, 5th Edition](http://www.redbook.io/)  
 About Data Modeling: **Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World, 3rd Edition Third Edition**  
 ## Languages and Compilers
 [**Crafting Interpreters** by Bob Nystrom](https://craftinginterpreters.com/contents.html)  
 > Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines? --Ras Bodik at the start of his compilers course  
 ## Distributed Systems
-YouTube: MIT's 6.824, a graduate course taught by Robert Morris  
-[Essential Readings](http://dsrg.pdos.csail.mit.edu/papers/)
+[MIT 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), a graduate course taught by Robert Morris, [other resources](https://pdos.csail.mit.edu/6.824/schedule.html)  
+[Essential Readings](http://dsrg.pdos.csail.mit.edu/papers/)  
+[PapersWeLove](https://paperswelove.org/)
 
 ---
 # [OSSU](https://github.com/ossu/computer-science)
