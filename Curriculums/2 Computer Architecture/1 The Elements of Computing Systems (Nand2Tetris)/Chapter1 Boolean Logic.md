@@ -17,8 +17,7 @@ module design: an acquired art
 We will test the correctness of the HDL programs by using a software-based hardware simulator, just like how hardware engineers work.
 
 ---
-# Booleaen Logic
-## Boolean Algebra
+# Boolean Algebra
 Two state binary values: true/false, yes/no, on/off, etc. We will use 1 and 0.
 
 {And, Or, Not} can express any Boolean function, and any of these three and be expressed using **Nand** (proof in appendix 1)
@@ -32,7 +31,7 @@ Truth table: convenient means for describing states of nature
 Boolean expression: convenient formalism for realizing the description in silicon
 
 The ability of simplifing Boolean expressions is important.
-##Logic Gates
+# Logic Gates
 
 
 
