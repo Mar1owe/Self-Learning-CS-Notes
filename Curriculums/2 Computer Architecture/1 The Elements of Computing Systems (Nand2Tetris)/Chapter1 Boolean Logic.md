@@ -32,10 +32,21 @@ Boolean expression: convenient formalism for realizing the description in silico
 
 The ability of simplifing Boolean expressions is important.
 # Logic Gates
+ gate - transistor - silicon - chip
 
+The use of **Boolean algebra** for
+analyzing the abstract behavior of logic gates was articulated in 1937 by
+*Claude Shannon*, leading to what is sometimes described as the most
+important M.Sc. thesis in computer science.
 
+**Primitive and Composite Gates**
 
+All logic gates have the same input and output data types: 0's and 1's, so they can be combined to form *composite gates*
 
+Two perspectives: internal (***implementation***, for builders), external (***interface***, for users)
 
-
-
+Logic design: Given a
+gate abstraction (also referred to as *specification*, or interface), find an
+efficient way (meaning as few gates as possible) to implement it using other gates that were already
+implemented.
+# Hardware Construction
