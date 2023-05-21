@@ -49,4 +49,4 @@ Logic design: Given a
 gate abstraction (also referred to as *specification*, or interface), find an
 efficient way (meaning as few gates as possible) to implement it using other gates that were already
 implemented.
-# Hardware Construction
+# Specification
