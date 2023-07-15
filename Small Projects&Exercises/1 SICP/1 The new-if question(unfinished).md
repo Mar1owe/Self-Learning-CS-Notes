@@ -1,5 +1,4 @@
-**`Lisp Scheme`**
-
+**`Lisp Scheme`**  
 Source: SICP Exercise 1.6
 
 Question:  
