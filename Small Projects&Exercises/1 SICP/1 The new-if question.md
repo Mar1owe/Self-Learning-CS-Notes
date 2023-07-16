@@ -28,3 +28,6 @@ Delighted, Alyssa uses new-if to rewrite the square-root program:
 What happens when Alyssa attempts to use this to compute square roots? Explain. 
 
 Solution:  
+`if ` is a special form, it first evaluates the predicate, and if that gives a false, the interpreter will then evaluate the else-clause.  
+When using `cond`, the interpreter evaluates both of the consequences.  
+That is why when Alyssa tries to use the `new-if`, the procedure will call itself again and again until it run out memory.
