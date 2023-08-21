@@ -50,3 +50,6 @@ implemented.
 # Hardware Construction
 ## Hardware Description Language (HDL)
 
+an HDL definition of a chip = a *header* section + a *parts* section
+
+# Specification
