@@ -53,3 +53,14 @@ implemented.
 an HDL definition of a chip = a *header* section + a *parts* section
 
 # Specification
+## Nand
+```
+Chip name: Nand
+Input:     a, b
+Output:    out
+Function:  if ((a==1) and (b==1)) then out = 0, else out = 1
+```
+## Basic Logic Gates
+Not, And, Or, Xor, Multiplexer, Demultiplexer
+## Multi-Bit Versions of Basic Gates
+Multi-bit Not, Multibit And, Multi-bit Or, Multi-bit multiplexer
