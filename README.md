@@ -5,9 +5,9 @@
 [**Structure and Interpretation of Computer Programs**](https://sarabander.github.io/sicp/html/index.xhtml)  
 [Exercise Solutions](http://community.schemewiki.org/?SICP-Solutions)  
 Additional Practice: [Exercism](https://exercism.org/)
-1. First 3 chapters and the exercises  
+1. [Lecture Videos](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
 2. Finish 39 additional exercises
-3. Finish the whole book  
+
 ## Computer Architecture
 **The Elements of Computing Systems** (also known as "Nand2Tetris")  
 **Computer Systems: A Programmer's Perspective** by Randal E. Bryant & David Richard O'Hallaron  

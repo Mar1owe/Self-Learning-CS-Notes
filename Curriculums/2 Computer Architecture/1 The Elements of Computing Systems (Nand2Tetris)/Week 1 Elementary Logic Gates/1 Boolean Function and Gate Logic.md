@@ -34,4 +34,30 @@ NOT((NOT(x) AND NOT(x)) AND NOT(y)) =
 NOT(NOT(x) AND NOT (y)) =  
 NOT(NOT(x)) OR NOT(NOT(y)) =  
 x OR y
-# Boolean Functions
+# Boolean Functions Synthesis
+Truth table to boolean expression:  
+Given a truth table, we pay attention to every output that is "1", write a expression that satisfies that row. We do this to every "1" output and `OR` them together.
+
+**Any Boolean function can be represented using an expression containing AND, OR and NOT opeartions.**
+
+(x NAND y) = NOT(x AND y)
+
+**Any Boolean function can be represented using an expression containing only NAND operations.**
+
+(1) NOT(x) = (x NAND x)
+(2) (x AND y) = NOT(x NAND y)
+# Logic Gates
+## Gate Logic
+- A technique for implementing Boolean functions using logic gates.
+- Logic gates:
+    - Elementary (NAND, AND, OR, NOT)
+    - Composite (MUX, ADDER)
+
+
+Gate Interface / Gate Implementation:  
+Two perspectives: internal (***implementation***, for builders), external (***interface***, for users)
+
+Circuit implementation
+- This course does not deal with physical implementations
+- Circuits, transistors, relays, ... these are EE, not CS
+# Hardware Description Language(HDL)
