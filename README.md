@@ -4,10 +4,9 @@
 ## Proramming
 [**Structure and Interpretation of Computer Programs**](https://sarabander.github.io/sicp/html/index.xhtml)  
 [Exercise Solutions](http://community.schemewiki.org/?SICP-Solutions)  
+[CS61A 2010 Fall](https://inst.eecs.berkeley.edu/~cs61a/fa10/)  
+[Lecture Videos](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)  
 Additional Practice: [Exercism](https://exercism.org/)
-1. [Lecture Videos](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
-2. Finish 39 additional exercises
-
 ## Computer Architecture
 **The Elements of Computing Systems** (also known as "Nand2Tetris")  
 **Computer Systems: A Programmer's Perspective** by Randal E. Bryant & David Richard O'Hallaron  
