@@ -61,3 +61,9 @@ Circuit implementation
 - This course does not deal with physical implementations
 - Circuits, transistors, relays, ... these are EE, not CS
 # Hardware Description Language(HDL)
+- HDL is a functional / declarative language
+- The order of HDL statements is indignificant
+- Before using a chip part, you must know its interface
+
+The most common HDLs: VHDL, Verilog
+# Hardware Simulation
