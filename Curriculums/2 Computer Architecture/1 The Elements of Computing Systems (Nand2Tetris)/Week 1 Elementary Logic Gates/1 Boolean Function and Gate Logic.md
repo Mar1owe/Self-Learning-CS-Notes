@@ -67,3 +67,46 @@ Circuit implementation
 
 The most common HDLs: VHDL, Verilog
 # Hardware Simulation
+Simulation options:  
+- Interactive
+- Script-based
+- With / without output and compare files
+
+The logic of a typical test script
+- Initialize
+    - Load an HDL file
+    - Create an empty output file
+    - List the names of the pins whose values will be writtent the output file
+- Repeat
+    - set-eval-output
+
+Simulation-with-compare-file logic:  
+- When each `output` command is executed, the outputted line is compared to the corresponding line in th compare file.
+- If the two lines are not the same, the simulator throws a comparison error.
+
+Behavioral simulation:  
+- The chip logic can be implemented in some high-level language
+- Enables high-level planning and testing of a hardware architecture before writing any HDL code
+
+Hardware construction projects:  
+- The players (first approximation):
+    - System architects
+    - Developers
+- The system architect decides which chips are needed
+- For each chip, the architect creates
+    - a chip API
+    - a test script
+    - a compare file
+- Given the resources, the developers can build the chips.
+# Multi-bit Buses
+**Array of Bits**
+- Sometimes we manipulate "together" an array of bits
+- It is conceptually convenient to think about such a group of bits as a single entity, sometime termed "bus"
+- HDLs will usually provide some convenient notation for handling these buses.
+
+**Sub-buses**
+- Buses can be composed from (and broken into) sub-buses.
+- Some syntactic choices of our HDL
+    - Overlaps of sub-buses are allowed on output bused of parts
+    - Width of internal pins is deduced automatically
+    - "false" and "true" may be used as buses of any width
