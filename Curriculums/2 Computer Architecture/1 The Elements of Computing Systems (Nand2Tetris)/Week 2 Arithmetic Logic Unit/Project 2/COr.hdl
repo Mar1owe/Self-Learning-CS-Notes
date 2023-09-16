@@ -1,0 +1,27 @@
+/**
+ * Take the "OR" value of all 16 bits
+ */
+
+CHIP COr {
+    IN x[16];
+    OUT out;
+
+    PARTS:
+   // Put you code here:
+   Or(a=x[0], b=x[1], out=out1);
+   Or(a=x[1], b=out1, out=out2);
+   Or(a=x[2], b=out2, out=out3);
+   Or(a=x[3], b=out3, out=out4);
+   Or(a=x[4], b=out4, out=out5);
+   Or(a=x[5], b=out5, out=out6);
+   Or(a=x[6], b=out6, out=out7);
+   Or(a=x[7], b=out7, out=out8);
+   Or(a=x[8], b=out8, out=out9);
+   Or(a=x[9], b=out9, out=out10);
+   Or(a=x[10], b=out10, out=out11);
+   Or(a=x[11], b=out11, out=out12);
+   Or(a=x[12], b=out12, out=out13);
+   Or(a=x[13], b=out13, out=out14);
+   Or(a=x[14], b=out14, out=out15);
+   Or(a=x[15], b=out15, out=out);
+}
