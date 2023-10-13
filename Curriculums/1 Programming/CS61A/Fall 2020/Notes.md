@@ -6,8 +6,11 @@ Later I found the CS61A official website. Well, although it is comprehensive. So
 
 I understand that UCB no longer use the original SICP for CS61A, I'll read that book whenever I feel free or necessary.
 
-Good luck, have fun!
+Finally, to everyone that is self-learning CS because of passion, just like me:
+
+    Good luck, have fun!
 
 > Written on Oct 10th, 2023, by Marlowe
 
-[CS61A Fall 2020 Course Website](https://inst.eecs.berkeley.edu/~cs61a/fa20/)
+[CS61A Fall 2020 Course Website](https://inst.eecs.berkeley.edu/~cs61a/fa20/)  
+[Textbook](https://www.composingprograms.com/)
