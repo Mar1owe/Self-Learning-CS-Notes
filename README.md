@@ -4,8 +4,6 @@
 ## Proramming
 [**Structure and Interpretation of Computer Programs**](https://sarabander.github.io/sicp/html/index.xhtml)  
 [Exercise Solutions](http://community.schemewiki.org/?SICP-Solutions)  
-[CS61A 2010 Fall](https://inst.eecs.berkeley.edu/~cs61a/fa10/)  
-[Lecture Videos](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)  
 [**CS61A 2020 Fall**](https://inst.eecs.berkeley.edu/~cs61a/fa20/)  
 Additional Practice: [Exercism](https://exercism.org/)
 ## Computer Architecture
