@@ -13,9 +13,9 @@ def a_plus_abs_b(a, b):
     ['return f(a, b)']
     """
     if b < 0:
-        f = a - b
+        f = lambda a, b: a - b
     else:
-        f = a + b
+        f = lambda a, b: a + b
     return f(a, b)
 
 
