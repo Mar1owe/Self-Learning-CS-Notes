@@ -11,7 +11,17 @@ def falling(n, k):
     1
     """
     "*** YOUR CODE HERE ***"
-
+    if k == 0:
+        return 1
+    else:
+        falling_factorial = 1
+        next_number_to_mul = n
+        while k > 0:
+            falling_factorial = falling_factorial * next_number_to_mul
+            next_number_to_mul -= 1
+            k -= 1
+        return falling_factorial
+            
 
 
 def sum_digits(y):
@@ -28,8 +38,12 @@ def sum_digits(y):
     6
     """
     "*** YOUR CODE HERE ***"
-
-
+    next_number = y
+    sum_of_digits = 0
+    while next_number >= 1:
+        sum_of_digits += next_number%10
+        next_number = next_number//10
+    return sum_of_digits
 
 def double_eights(n):
     """Return true if n has two eights in a row.
@@ -47,5 +61,3 @@ def double_eights(n):
     False
     """
     "*** YOUR CODE HERE ***"
-
-
