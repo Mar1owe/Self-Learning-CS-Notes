@@ -23,3 +23,11 @@ Terminal Commands:
 `mv <source path> <destination path>`: move the file at the given source to the given destination
 
 More details in [Unix tutorial](https://inst.eecs.berkeley.edu/~cs61a/fa20/articles/unix.html)
+
+
+In order to text python code use the docstring:
+```
+~/cs61a python3 -m doctest ex.py
+
+~/cs61a python3 -m doctest -v ex.py
+```
