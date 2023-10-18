@@ -37,7 +37,7 @@ def two_of_three(x, y, z):
     >>> [type(x).__name__ for x in ast.parse(inspect.getsource(two_of_three)).body[0].body]
     ['Expr', 'Return']
     """
-    return _____
+    return x*x + y*y + z*z - max(x,y,z) * max(x,y,z)
 
 
 def largest_factor(n):
@@ -51,6 +51,13 @@ def largest_factor(n):
     1
     """
     "*** YOUR CODE HERE ***"
+    m = n-1
+    while m > 1:
+        if n%m == 0:
+            return m
+        else: 
+            m = m-1
+    return 1
 
 
 def if_function(condition, true_result, false_result):
@@ -96,12 +103,16 @@ def with_if_function():
 
 def cond():
     "*** YOUR CODE HERE ***"
+    return True
 
 def true_func():
     "*** YOUR CODE HERE ***"
+    print(47)
 
 def false_func():
     "*** YOUR CODE HERE ***"
+    print(42)
+
 
 
 def hailstone(n):
@@ -120,4 +131,15 @@ def hailstone(n):
     7
     """
     "*** YOUR CODE HERE ***"
-
+    steps = 1
+    while n > 1:
+        if n%2 == 0:
+            print(n)
+            n = int(n/2)
+            steps += 1
+        else:
+            print(n)
+            n = int(n*3 + 1)
+            steps += 1
+    print(n)
+    return steps
