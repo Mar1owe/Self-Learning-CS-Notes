@@ -121,4 +121,29 @@ def cycle(f1, f2, f3):
     19
     """
     "*** YOUR CODE HERE ***"
+    def apply_functions(x, n):
+        if n == 0:
+            return x
+        elif n == 1:
+            return f1(x)
+        elif n == 2:
+            return f2(f1(x))
+        elif n == 3:
+            return f3(f2(f1(x)))
+        else:
+            composed_function = compose_functions(f1, f2, f3, n)
+            return composed_function(x)
 
+    def compose_functions(f1, f2, f3, n):
+        if n == 0:
+            return lambda x: x
+        elif n == 1:
+            return f1
+        elif n == 2:
+            return lambda x: f2(f1(x))
+        elif n == 3:
+            return lambda x: f3(f2(f1(x)))
+        else:
+            return lambda x: compose_functions(f1, f2, f3, n - 3)(f3(f2(f1(x))))
+
+    return lambda n: lambda x: apply_functions(x, n)
