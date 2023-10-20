@@ -15,7 +15,7 @@ def lambda_curry2(func):
     3
     """
     "*** YOUR CODE HERE ***"
-    return _____
+    return lambda a: lambda b: func(a,b)
 
 
 
@@ -47,8 +47,16 @@ def count_cond(condition):
     8
     """
     "*** YOUR CODE HERE ***"
-
-
+    def return_number(n):
+        count, i = 0, 1
+        while i<=n:
+            if condition(n,i):
+                count += 1
+                i += 1
+            else:
+                i += 1
+        return count
+    return lambda N: return_number(N)
 
 def compose1(f, g):
     """Return the composition function which given x, computes f(g(x)).
@@ -82,6 +90,7 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
+    return lambda a: compose1(f,g)(a) == compose1(g,f)(a)
 
 
 
