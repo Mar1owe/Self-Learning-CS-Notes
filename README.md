@@ -7,7 +7,7 @@
 [**CS61A 2020 Fall**](https://inst.eecs.berkeley.edu/~cs61a/fa20/)  
 Additional Practice: [Exercism](https://exercism.org/)
 ## Computer Architecture
-CS61C / CS APP (unfinished here)
+[CS61C](https://inst.eecs.berkeley.edu/~cs61c/su20/) / CS APP
 > Hardware is the platform --Mike Acton, Engin Director at Insomniac Games
 ## Algorithms and Data Structures
 **The Algorithm Design Manual** by Steven Skiena  
