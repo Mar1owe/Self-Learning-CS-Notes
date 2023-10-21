@@ -23,6 +23,19 @@ def roll_dice(num_rolls, dice=six_sided):
     assert num_rolls > 0, 'Must roll at least once.'
     # BEGIN PROBLEM 1
     "*** YOUR CODE HERE ***"
+    rolled_num = 0
+    st = 0  # This is the score of this turn.
+    while rolled_num < num_rolls:
+        cv = dice()  # This is the current value of dice.
+        if cv != 1:
+            st += cv
+            rolled_num += 1
+        else:
+            while rolled_num < num_rolls:
+                dice()
+                rolled_num += 1
+            return 1
+    return st
     # END PROBLEM 1
 
 
