@@ -31,6 +31,7 @@ def roll_dice(num_rolls, dice=six_sided):
             st += cv
             rolled_num += 1
         else:
+            rolled_num += 1
             while rolled_num < num_rolls:
                 dice()
                 rolled_num += 1
@@ -50,9 +51,12 @@ def free_bacon(score):
     # Trim pi to only (score + 1) digit(s)
     # BEGIN PROBLEM 2
     "*** YOUR CODE HERE ***"
+    if score == 0:
+        return 6
+    else:
+        pi = pi // pow(10, 100 - score)
     # END PROBLEM 2
-
-    return pi % 10 + 3
+        return pi % 10 + 3
 
 
 def take_turn(num_rolls, opponent_score, dice=six_sided):
@@ -70,6 +74,10 @@ def take_turn(num_rolls, opponent_score, dice=six_sided):
     assert opponent_score < 100, 'The game should be over.'
     # BEGIN PROBLEM 3
     "*** YOUR CODE HERE ***"
+    if num_rolls == 0:
+        return free_bacon(opponent_score)
+    else:
+        return roll_dice(num_rolls, dice)
     # END PROBLEM 3
 
 
@@ -92,6 +100,19 @@ def swine_align(player_score, opponent_score):
     """
     # BEGIN PROBLEM 4a
     "*** YOUR CODE HERE ***"
+    if player_score == 0 or opponent_score == 0:
+        return False
+    else:
+        i = player_score
+        while i > 1:
+            if player_score % i == 0 and opponent_score % i == 0:
+                if i >= 10:
+                    return True
+                else:
+                    return False
+            else:
+                i -= 1
+        return False
     # END PROBLEM 4a
 
 
@@ -114,6 +135,10 @@ def pig_pass(player_score, opponent_score):
     """
     # BEGIN PROBLEM 4b
     "*** YOUR CODE HERE ***"
+    if player_score < opponent_score and opponent_score - player_score < 3:
+        return True
+    else:
+        return False
     # END PROBLEM 4b
 
 
