@@ -182,11 +182,14 @@ def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
         if who == 0:
             num_rolls = strategy0(score0, score1)
             score0 += take_turn(num_rolls, score1, dice)
+            if extra_turn(score0, score1) is False:
+                who = other(who)
         else:
             num_rolls = strategy1(score1, score0)
             score1 += take_turn(num_rolls, score0, dice)
-        if extra_turn is False:
-            who = other(who)
+            if extra_turn(score1, score0) is False:
+                who = other(who)
+        say = say(score0, score1) 
     # END PROBLEM 5
     # (note that the indentation for the problem 6 prompt (***YOUR CODE HERE***) might be misleading)
     # BEGIN PROBLEM 6
@@ -275,6 +278,17 @@ def announce_highest(who, last_score=0, running_high=0):
     assert who == 0 or who == 1, 'The who argument should indicate a player.'
     # BEGIN PROBLEM 7
     "*** YOUR CODE HERE ***"
+    if who == 0:
+        
+    def say(score0, score1):
+        if running_high == 0:
+            print(last_score, "point(s)! The most yet for Player", who)
+            return announce_highest(who, last_score, running_high)
+        elif last_score > running_high:
+            print(last_score, "point(s)! The most yet for Player", who)
+            running_high = last_score
+            return announce_highest(who, last_score, running_high)
+    return say
     # END PROBLEM 7
 
 
