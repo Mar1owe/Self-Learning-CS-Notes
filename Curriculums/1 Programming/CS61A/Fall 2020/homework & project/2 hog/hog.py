@@ -278,16 +278,19 @@ def announce_highest(who, last_score=0, running_high=0):
     assert who == 0 or who == 1, 'The who argument should indicate a player.'
     # BEGIN PROBLEM 7
     "*** YOUR CODE HERE ***"
-    if who == 0:
-        
     def say(score0, score1):
-        if running_high == 0:
-            print(last_score, "point(s)! The most yet for Player", who)
-            return announce_highest(who, last_score, running_high)
-        elif last_score > running_high:
-            print(last_score, "point(s)! The most yet for Player", who)
-            running_high = last_score
-            return announce_highest(who, last_score, running_high)
+        if who == 0:
+            if score0-last_score> running_high:
+                print(score0 - last_score, "point(s)! The most yet for Player", who)
+                return announce_highest(who, score0, score0 - last_score)
+            else:
+                return announce_highest(who, score0, running_high)
+        elif who == 1:
+            if score1-last_score> running_high:
+                print(score1 - last_score, "point(s)! The most yet for Player", who)
+                return announce_highest(who, score1, score1 - last_score)
+            else:
+                return announce_highest(who, score1, running_high)
     return say
     # END PROBLEM 7
 
@@ -329,6 +332,14 @@ def make_averaged(original_function, trials_count=1000):
     """
     # BEGIN PROBLEM 8
     "*** YOUR CODE HERE ***"
+    def returns_average(*args):
+        count = 0
+        total = 0
+        while count < trials_count:
+            total += original_function(*args)
+            count += 1
+        print(total / count)
+    return returns_average
     # END PROBLEM 8
 
 
@@ -343,6 +354,16 @@ def max_scoring_num_rolls(dice=six_sided, trials_count=1000):
     """
     # BEGIN PROBLEM 9
     "*** YOUR CODE HERE ***"
+    dice_num = 1
+    highest = 0
+    while dice_num < 10:
+        dice_num += 1
+        average_value = make_averaged(dice, trials_count)
+        if average_value() / dice_num > highest:
+            highest = make_averaged(dice, trials_count)() / dice_num
+            result = dice_num
+    return result
+
     # END PROBLEM 9
 
 
