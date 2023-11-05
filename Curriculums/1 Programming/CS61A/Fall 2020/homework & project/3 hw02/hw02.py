@@ -91,7 +91,7 @@ def missing_digits(n):
     3
     >>> missing_digits(35578) # 4, 6
     2
-    >>> missing_digits(12456) # 3
+    >>> missing_digits(12456) # 3 
     1
     >>> missing_digits(16789) # 2, 3, 4, 5
     4
