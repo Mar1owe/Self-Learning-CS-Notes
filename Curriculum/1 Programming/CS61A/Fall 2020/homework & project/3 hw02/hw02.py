@@ -67,6 +67,9 @@ def pingpong(n):
     True
     """
     "*** YOUR CODE HERE ***"
+
+    # This is my first implementation, it works when the index number isn't too large.
+    '''
     if n==1:
         return 1
     if n==2:
@@ -75,6 +78,26 @@ def pingpong(n):
         return pingpong(n-2)
     else:
         return 2 * pingpong(n-1) - pingpong(n-2)
+    '''
+
+    # This is the iterative version.
+    '''
+    index, ppn, dir = 1,1,1
+    while index != n:
+        index += 1
+        ppn += dir
+        if num_eights(index) > 0 or index%8 == 0:
+            dir = -dir
+    return ppn
+    '''
+    def helper(index=1, ppn=1, dir=1):
+        while index!= n:
+            if num_eights(index)>0 or index%8 == 0:
+                return helper(index+1, ppn-dir, -dir)
+            else:
+                return helper(index+1, ppn+dir, dir)
+        return ppn
+    return helper()
 
 
 def missing_digits(n):
@@ -105,6 +128,23 @@ def missing_digits(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    if n<10:
+        return 0
+    else:
+        last, without_last = int(n%10), int(n//10)
+        if without_last < 10:
+            if last-without_last-1<0:
+                return 0
+            else:
+                return last - without_last -1
+        else:
+            if last -(without_last%10)-1 < 0:
+                return missing_digits(without_last)
+            else:
+                return last-(without_last%10)-1 + missing_digits(without_last)
+
+
+    
 
 
 def next_largest_coin(coin):
