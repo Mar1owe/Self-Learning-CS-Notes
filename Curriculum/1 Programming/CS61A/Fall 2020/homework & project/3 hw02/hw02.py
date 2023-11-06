@@ -181,6 +181,17 @@ def count_coins(total):
     True
     """
     "*** YOUR CODE HERE ***"
+    def count_partitions(n, current_coin):
+        if n == 0:
+            return 1
+        if n < 0 or current_coin is None:
+            return 0
+        # Include the current coin and move to the next larger coin, or exclude the current coin
+        with_current_coin = count_partitions(n - current_coin, current_coin)
+        without_current_coin = count_partitions(n, next_largest_coin(current_coin))
+        return with_current_coin + without_current_coin
+
+    return count_partitions(total, 1)
 
 
 from operator import sub, mul
