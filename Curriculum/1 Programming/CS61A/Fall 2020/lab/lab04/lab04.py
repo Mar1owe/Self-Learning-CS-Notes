@@ -19,6 +19,10 @@ def skip_add(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    if n-2<=0:
+        return n
+    else:
+        return n + skip_add(n-2)
 
 
 def summation(n, term):
@@ -41,6 +45,10 @@ def summation(n, term):
     """
     assert n >= 1
     "*** YOUR CODE HERE ***"
+    if n-1 == 0:
+        return term(1)
+    else:
+        return term(n) + summation(n-1, term)
 
 
 def paths(m, n):
@@ -57,6 +65,10 @@ def paths(m, n):
     1
     """
     "*** YOUR CODE HERE ***"
+    #The final goal is to get to (m-1, n-1)
+    if m == 1 or n == 1:
+        return 1
+    return paths(m-1, n) + paths(m, n-1)
 
 
 
@@ -105,6 +117,14 @@ def max_subseq(n, t):
     5
     """
     "*** YOUR CODE HERE ***"
+    if pow(10,t) > n:
+        return n
+    elif t==0:
+        return 0
+    elif t==1:
+        return max(n%10, max_subseq(n//10, 1))
+    else:
+        return max(((n%10)+10*max_subseq(n//10, t-1)), max_subseq(n//10, t))
 
 
 def add_chars(w1, w2):
@@ -134,4 +154,14 @@ def add_chars(w1, w2):
     True
     """
     "*** YOUR CODE HERE ***"
+    def helper(s,t):
+        if s == t[0]:
+            return len(t)
+        else:
+            return helper(s,t[1::])
 
+    if not w1:
+        return w2
+    else:
+        i = len(w2) - helper(w1[0],w2)
+        return add_chars(w1[1::],w2[:i]+w2[i+1:])

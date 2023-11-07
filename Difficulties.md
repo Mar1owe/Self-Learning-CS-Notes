@@ -115,3 +115,45 @@ def count_coins(total):
 
     return count_partitions(total, 1)
 ```
+
+3. 
+```Python
+def add_chars(w1, w2):
+    """
+    Return a string containing the characters you need to add to w1 to get w2.
+
+    You may assume that w1 is a subsequence of w2.
+
+    >>> add_chars("owl", "howl")
+    'h'
+    >>> add_chars("want", "wanton")
+    'on'
+    >>> add_chars("rat", "radiate")
+    'diae'
+    >>> add_chars("a", "prepare")
+    'prepre'
+    >>> add_chars("resin", "recursion")
+    'curo'
+    >>> add_chars("fin", "effusion")
+    'efuso'
+    >>> add_chars("coy", "cacophony")
+    'acphon'
+    >>> from construct_check import check
+    >>> # ban iteration and sets
+    >>> check(LAB_SOURCE_FILE, 'add_chars',
+    ...       ['For', 'While', 'Set', 'SetComp']) # Must use recursion
+    True
+    """
+    "*** YOUR CODE HERE ***"
+    def helper(s,t):
+        if s == t[0]:
+            return len(t)
+        else:
+            return helper(s,t[1::])
+
+    if not w1:
+        return w2
+    else:
+        i = len(w2) - helper(w1[0],w2)
+        return add_chars(w1[1::],w2[:i]+w2[i+1:])
+```
