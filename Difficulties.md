@@ -157,3 +157,20 @@ def add_chars(w1, w2):
         i = len(w2) - helper(w1[0],w2)
         return add_chars(w1[1::],w2[:i]+w2[i+1:])
 ```
+
+4. 
+Write a function that takes in a list and returns the maximum product that
+can be formed using nonconsecutive elements of the list. The input list will
+contain only numbers greater than or equal to 1.
+```Python
+def max_product(s):
+    """Return the maximum product that can be formed using non-consecutive
+    elements of s.
+    >>> max_product([10,3,1,9,2]) # 10 * 9
+    90
+    >>> max_product([5,10,5,10,5]) # 5 * 5 * 5
+    125
+    >>> max_product([])
+    1
+    """
+```
