@@ -10,6 +10,8 @@ Additional Practice: [Exercism](https://exercism.org/)
 [CS61C](https://inst.eecs.berkeley.edu/~cs61c/su20/) / CS APP
 > Hardware is the platform --Mike Acton, Engin Director at Insomniac Games
 ## Algorithms and Data Structures
+[CS61B](https://sp21.datastructur.es/)
+
 **The Algorithm Design Manual** by Steven Skiena  
 1. [Skiena's Video Lectures](https://www3.cs.stonybrook.edu/~skiena/373/videos/)  
 2. Additional Practice: solve around 100 random problems on [Leetcode](https://leetcode.com/)  
